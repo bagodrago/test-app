@@ -1,26 +1,126 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme { /*Colors*/
+  --color-gary: #1d1d1dff;
+  --color-ornj: #ff6a00ff;
+  --color-bloo: #1d1d83ff;
+  --color-beij: #ffeeddff;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.canvas {
+  @apply
+    items-center
+    justify-items-center
+    min-h-screen
+    /* sm:p-20 */
+    bg-white
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.button {
+  @apply
+    px-5
+    py-4
+    bg-ornj
+    text-white
+    italic
+    font-bold
+    rounded-xl
+    hover:bg-bloo
+    hover:text-shadow-ornj
+    hover:text-shadow-sm
+    mt-10
+    text-2xl
 }
+
+/*</Header>*/
+
+/*<Navbar>*/
+
+.navbar {
+  @apply
+    overflow-visible
+    shadow-lg
+    fixed
+    w-full
+    top-0
+    py-5
+    z-50
+    bg-white
+}
+
+.navbar__frame {
+  @apply
+    max-w-6xl 
+    mx-auto 
+    flex 
+    items-center 
+    justify-between 
+    h-16 
+    gap-[48px] 
+    font-bold
+}
+
+.navbar__item {
+  @apply
+    hover:text-ornj
+    text-black
+    z-50
+}
+
+/*</Navbar>*/
+
+/*<Hero>*/
+
+.hero {
+  @apply 
+    flex 
+    2xl:flex-row 
+    flex-col 
+    gap-5 
+    relative 
+    z-0
+    h-screen
+    w-full
+    pb-20
+    bg-beij
+}
+
+.hero__title {
+  @apply 
+    xl:text-[72px]/21
+    sm:text-[64px]/21
+    text-[50px]/21
+    font-extrabold 
+    text-ornj
+    leading-none
+    mb-20
+}
+
+.hero__subtitle {
+  @apply 
+    text-[27px]/12
+    font-semibold 
+    mt-5 
+    text-bloo;
+}
+
+/*</Hero>*/
+
+/*<About>*/
+
+.about {
+  @apply
+   bg-bloo 
+    text-white
+    w-full
+    py-96
+    items-center
+    relative
+    overflow-hidden
+}
+
+/*</About>*/
