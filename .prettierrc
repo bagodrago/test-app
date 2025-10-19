@@ -1,0 +1,7 @@
+{
+    "plugins":["prettier-plugin-tailwindcss"],
+    "singleQuote": false,
+    "semi": false,
+    "tailwindStylesheet": "./app/globals.css",
+    "tailwindPreserveWhitespace": true
+}
