@@ -29,6 +29,8 @@ html {
     font-bold
     text-white
     italic
+    transition
+    hover:scale-110
     hover:bg-bloo
     hover:text-shadow-ornj
     hover:text-shadow-sm;
@@ -66,6 +68,8 @@ html {
 .navbar__item {
   @apply z-50
     text-black
+    transition
+    hover:scale-110
     hover:text-ornj;
 }
 
@@ -92,7 +96,7 @@ html {
     w-full 
     bg-bloo 
     text-white 
-    shadow-lg 
+    shadow-xl
     md:hidden;
 }
 
@@ -104,8 +108,9 @@ html {
 
 .dropdown__item {
   @apply w-screen
-    py-2
+    py-5
     text-center
+    font-semibold
     hover:bg-ornj
     hover:text-black;
 }
@@ -130,8 +135,8 @@ html {
 .hero__title {
   @apply mb-20
     text-[50px]/21
-    leading-none
-    font-extrabold 
+    leading-none 
+    font-extrabold
     text-ornj
     sm:text-[64px]/21
     xl:text-[72px]/21;

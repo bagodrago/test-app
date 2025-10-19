@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar__frame">
-        <Link href="#top">
+        <Link className="transition hover:scale-110" href="#top">
           <Image src="/logotk.svg" alt="David Howe" width={130} height={80} />
         </Link>
 
