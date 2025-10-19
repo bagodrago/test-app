@@ -1,7 +1,14 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import {Menu, X} from "lucide-react";
+
+import { useMenu } from "@/context/MenuContext";
 
 const Navbar = () => {
+  const {menuOpen, setMenuOpen} = useMenu();
+  const toggleMenu = () => setMenuOpen(!menuOpen);
+
   return (
     <nav className="navbar">
       <div className="navbar__frame">
@@ -17,7 +24,8 @@ const Navbar = () => {
           />
         </Link>
 
-        <div className="flex flex-row items-center space-x-10">
+        {/* Desktop Links */}
+        <div className="hidden md:flex flex-row items-center space-x-10">
           <Link href="#about" className="navbar__item">
             About
           </Link>
@@ -31,6 +39,14 @@ const Navbar = () => {
           </Link>
         </div>
         
+        {/* Hamburger Menu for Mobile */}
+        <button
+          onClick={toggleMenu}
+          className="navbar__hamburger"
+          aria-label="Toggle menu"
+        >
+          {menuOpen ? <X size={28}/> : <Menu size={28}/>}
+        </button>
       </div>
     </nav>
   )

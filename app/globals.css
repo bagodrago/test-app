@@ -48,14 +48,14 @@ html {
     w-full
     top-0
     py-5
-    z-50
+    z-[50]
     bg-white
 }
 
 .navbar__frame {
   @apply
     max-w-6xl 
-    mx-auto 
+    mx-15
     flex 
     items-center 
     justify-between 
@@ -71,7 +71,53 @@ html {
     z-50
 }
 
+.navbar__hamburger {
+  @apply
+    md:hidden 
+    rounded 
+    p-2
+    transition-colors
+    bg-bloo
+    text-white
+    hover:bg-ornj
+    hover:text-black
+}
+
 /*</Navbar>*/
+
+/*<DropdownMenu>*/
+
+.dropdown {
+  @apply 
+    md:hidden 
+    bg-bloo 
+    top-26 
+    left-0 
+    text-white 
+    fixed 
+    w-full 
+    z-[40] 
+    shadow-lg
+}
+
+.dropdown__list {
+  @apply
+    flex 
+    flex-col 
+    items-center
+}
+
+.dropdown__item {
+  @apply
+    hover:bg-ornj
+    hover:text-black
+    w-screen
+    py-2
+    text-center
+    
+}
+
+/*</DropdownMenu>*/
 
 /*<Hero>*/
 
