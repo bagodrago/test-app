@@ -1,7 +1,7 @@
-import { About } from "@/app";
-import { DropdownMenu } from "@/app";
-import { Hero } from "@/app";
-import { Navbar } from "@/app";
+import { About } from "@/app/components";
+import { DropdownMenu } from "@/app/components";
+import { Hero } from "@/app/components";
+import { Navbar } from "@/app/components";
 
 import { MenuProvider } from "@/app/context/MenuContext";
 
