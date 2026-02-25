@@ -1,9 +1,9 @@
-import { About } from "@/components";
-import { DropdownMenu } from "@/components";
-import { Hero } from "@/components";
-import { Navbar } from "@/components";
+import { About } from "@/app";
+import { DropdownMenu } from "@/app";
+import { Hero } from "@/app";
+import { Navbar } from "@/app";
 
-import { MenuProvider } from "@/context/MenuContext";
+import { MenuProvider } from "@/app/context/MenuContext";
 
 export default function Home() {
   return (

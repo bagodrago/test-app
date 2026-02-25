@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
 
-import { useMenu } from "@/context/MenuContext"
+import { useMenu } from "@/app/context/MenuContext"
 
 const Navbar = () => {
   const { menuOpen, setMenuOpen } = useMenu()

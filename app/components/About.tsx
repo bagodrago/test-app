@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef } from "react"
-import Glow from "@/components/Glow";
+import Glow from "@/app/components/Glow";
 
 const About = () => {
   const sectionRef = useRef<HTMLElement|null>(null);
