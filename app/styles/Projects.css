@@ -1,0 +1,21 @@
+.projects {
+    @apply relative 
+    z-0 
+    flex 
+    h-screen 
+    w-full 
+    flex-col
+    gap-5
+    bg-gradient-to-b
+    from-gary
+    to-gray-700
+    pb-20
+    2xl:flex-row;
+}
+
+.projects__card {
+    @apply bg-gradient-to-b 
+    text-white
+    from-ornj
+    to-orange-400
+}

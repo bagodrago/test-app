@@ -2,6 +2,7 @@ import { About } from "@/app/components";
 import { DropdownMenu } from "@/app/components";
 import { Hero } from "@/app/components";
 import { Navbar } from "@/app/components";
+import { Projects } from "@/app/components";
 
 import { MenuProvider } from "@/app/context/MenuContext";
 
@@ -15,7 +16,7 @@ export default function Home() {
       
       <Hero />
       <About />
-      <Hero />
+      <Projects />
     </main>
   );
 }

@@ -4,6 +4,7 @@
 @import "./styles/DropdownMenu.css";
 @import "./styles/Hero.css";
 @import "./styles/Navbar.css";
+@import "./styles/Projects.css";
 
 @theme {
   /*Colors*/
