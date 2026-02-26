@@ -1,0 +1,9 @@
+.about {
+  @apply relative 
+    w-full
+    items-center
+    overflow-hidden
+    bg-bloo
+    py-96
+    text-white;
+}

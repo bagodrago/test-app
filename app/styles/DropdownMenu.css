@@ -1,0 +1,26 @@
+.dropdown {
+  @apply fixed 
+    top-26 
+    left-0 
+    z-[40] 
+    w-full 
+    bg-bloo 
+    text-white 
+    shadow-xl
+    md:hidden;
+}
+
+.dropdown__list {
+  @apply flex 
+    flex-col 
+    items-center;
+}
+
+.dropdown__item {
+  @apply w-screen
+    py-5
+    text-center
+    font-semibold
+    hover:bg-ornj
+    hover:text-black;
+}

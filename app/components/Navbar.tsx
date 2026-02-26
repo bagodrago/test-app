@@ -4,6 +4,7 @@ import Link from "next/link"
 import { Menu, X } from "lucide-react"
 
 import { useMenu } from "@/app/context/MenuContext"
+import "@/app/styles/Navbar.css";
 
 const Navbar = () => {
   const { menuOpen, setMenuOpen } = useMenu()

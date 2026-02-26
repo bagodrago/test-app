@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { useMenu } from "@/app/context/MenuContext";
+import "@/app/styles/DropdownMenu.css";
 
 const DropdownMenu = () => {
   const {menuOpen, setMenuOpen} = useMenu();

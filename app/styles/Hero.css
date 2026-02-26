@@ -1,0 +1,46 @@
+.hero {
+  @apply relative 
+    z-0 
+    flex 
+    h-screen 
+    w-full 
+    flex-col
+    gap-5
+    bg-beij
+    pb-20
+    2xl:flex-row;
+}
+
+.hero__title {
+  @apply mb-20
+    text-[50px]/21
+    leading-none 
+    font-extrabold
+    text-ornj
+    sm:text-[64px]/21
+    xl:text-[72px]/21;
+}
+
+.hero__subtitle {
+  @apply mt-5
+    text-[27px]/12 
+    font-semibold 
+    text-bloo;
+}
+
+.button {
+  @apply mt-10
+    rounded-xl
+    bg-ornj
+    px-5
+    py-4
+    text-2xl
+    font-bold
+    text-white
+    italic
+    transition
+    hover:scale-110
+    hover:bg-bloo
+    hover:text-shadow-ornj
+    hover:text-shadow-sm;
+}
