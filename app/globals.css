@@ -24,3 +24,7 @@ html {
     justify-items-center
     bg-white;
 }
+
+.section {
+  @apply mt-50
+}

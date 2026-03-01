@@ -1,21 +1,35 @@
 .projects {
-    @apply relative 
-    z-0 
-    flex 
-    h-screen 
-    w-full 
-    flex-col
-    gap-5
-    bg-gradient-to-b
-    from-gary
-    to-gray-700
-    pb-20
-    2xl:flex-row;
+  @apply relative 
+  z-0 
+  flex
+  w-full
+  flex-col
+  gap-5
+  p-10
+  bg-gradient-to-b
+  from-gary
+  to-gray-700
+  pb-20
+  2xl:flex-row;
 }
 
 .projects__card {
-    @apply bg-gradient-to-b 
-    text-white
-    from-ornj
-    to-orange-400
+  @apply bg-gradient-to-b 
+  text-white
+  from-ornj
+  to-orange-400
+  aspect-[4/5]
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+}
+
+.swiper-wrapper {
+  transition-timing-function: linear !important;
 }

@@ -4,7 +4,7 @@ import "@/app/styles/Hero.css";
 
 const Hero = () => {
   return (
-    <section className='hero' id="#top">
+    <section className='hero' id="top">
       <div className='pt-36 sm:px-20'>
         
         <h1 className='hero__title'>
