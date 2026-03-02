@@ -14,6 +14,7 @@ export default function Home() {
         <DropdownMenu />
       </MenuProvider>
       
+      <div className="h-26"></div>
       <Hero />
       <About />
       <Projects />

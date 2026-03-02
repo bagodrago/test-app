@@ -25,6 +25,6 @@ html {
     bg-white;
 }
 
-.section {
-  @apply mt-50
+section {
+  @apply scroll-mt-26;
 }
