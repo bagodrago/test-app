@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Portfolio Website",
+    "description": "This site you're viewing now! All of it was made from scratch as a way to learn Next.js using Tailwind CSS.",
+    "image": "iceland.jpg",
+    "link": "https://github.com/bagodrago/test-app",
+    "stack": [
+      {
+        "name": "Next.js",
+        "svg": "devicon-nextjs-plain"
+      },
+      {
+        "name": "React",
+        "svg": "devicon-react-original"
+      },
+      {
+        "name": "HTML",
+        "svg": "devicon-html5-plain-wordmark"
+      },
+      {
+        "name": "CSS",
+        "svg": "devicon-css3-plain-wordmark"
+      },
+      {
+        "name": "TypeScript",
+        "svg": "devicon-typescript-plain"
+      },
+      {
+        "name": "Tailwind CSS",
+        "svg": "devicon-tailwindcss-original"
+      },
+      {
+        "name": "Swiper",
+        "svg": "devicon-swiper-original"
+      }
+    ]
+  },
+  {
+    "name": "Example Project 2",
+    "description": "This site you're viewing now! All of it was made from scratch as a way to learn Next.js using Tailwind CSS.",
+    "image": "@/public/?.png",
+    "link": "https://github.com/bagodrago/test-app",
+    "stack": [
+      {
+        "name": "Next.js",
+        "svg": "devicon-nextjs-plain"
+      },
+      {
+        "name": "React",
+        "svg": "devicon-react-original"
+      },
+      {
+        "name": "HTML",
+        "svg": "devicon-html5-plain-wordmark"
+      },
+      {
+        "name": "CSS",
+        "svg": "devicon-css3-plain-wordmark"
+      },
+      {
+        "name": "TypeScript",
+        "svg": "devicon-typescript-plain"
+      },
+      {
+        "name": "Tailwind CSS",
+        "svg": "devicon-tailwindcss-original"
+      },
+      {
+        "name": "Swiper",
+        "svg": "devicon-swiper-original"
+      }
+    ]
+  }
+]
