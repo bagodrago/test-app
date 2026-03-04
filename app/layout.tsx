@@ -22,6 +22,11 @@ export default function RootLayout({
       <body
         className={`${dmSans.variable} ${dmSans.variable} antialiased`}
       >
+        <link 
+          rel="stylesheet" 
+          type='text/css' 
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" 
+        />
         {children}
       </body>
     </html>

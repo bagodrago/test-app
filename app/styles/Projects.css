@@ -2,23 +2,28 @@
   @apply relative 
   z-0 
   flex
-  w-full
   flex-col
+  w-full
   gap-5
   p-10
   bg-gradient-to-b
   from-gary
   to-gray-700
   pb-20
-  2xl:flex-row;
+  text-white
+}
+
+.projects__h1 {
+  @apply font-semibold
+  text-[27px]/12 
 }
 
 .projects__card {
   @apply bg-gradient-to-b 
-  text-white
   from-ornj
   to-orange-400
-  aspect-[4/5]
+  aspect-square
+  md:aspect-[4/5]
 }
 
 .swiper {

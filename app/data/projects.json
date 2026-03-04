@@ -38,7 +38,7 @@
   {
     "name": "Example Project 2",
     "description": "This site you're viewing now! All of it was made from scratch as a way to learn Next.js using Tailwind CSS.",
-    "image": "@/public/?.png",
+    "image": "iceland.jpg",
     "link": "https://github.com/bagodrago/test-app",
     "stack": [
       {
