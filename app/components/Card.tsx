@@ -7,7 +7,7 @@ interface CardParams {
 
 const Card = ({children, className}: CardParams) => {
   return (
-    <figure className={`shadow-lg rounded-xl p-10 min-w-0 ${className ?? ''}`}>
+    <figure className={`shadow-lg rounded-xl min-w-0 hover:shadow-2xl ${className ?? ''}`}>
       {children}
     </figure>
   )

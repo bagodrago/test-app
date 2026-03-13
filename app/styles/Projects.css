@@ -19,11 +19,11 @@
 }
 
 .projects__card {
-  @apply bg-gradient-to-b 
+  @apply bg-gradient-to-t 
   from-ornj
   to-orange-400
   aspect-square
-  md:aspect-[4/5]
+  select-none
 }
 
 .swiper {
